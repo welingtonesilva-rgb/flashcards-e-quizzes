@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Estudo - Nome do Seu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Simulado Rápido: Inglês Básico</h1>
+        <p>Clique no card para ver a resposta</p>
+    </header>
+
+    <main class="container">
+        <div class="ads-placeholder">Anúncio AdSense Aqui</div>
+
+        <div class="flashcard-area">
+            <div class="card" id="card" onclick="flipCard()">
+                <div class="card-front">
+                    <p id="question">Carregando pergunta...</p>
+                </div>
+                <div class="card-back">
+                    <p id="answer">Carregando resposta...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button onclick="prevCard()">Anterior</button>
+            <button onclick="nextCard()" class="btn-next">Próxima</button>
+        </div>
+
+        <div class="ads-placeholder">Anúncio AdSense Aqui</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
